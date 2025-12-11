@@ -54,8 +54,6 @@ uvicorn app.main:app --reload --port 8000
 The API will be available at `http://localhost:8000`.
 Docs available at `http://localhost:8000/docs`.
 
-Alternatively, after initial setup, you can run both backend and frontend using the root `run.bat` (Windows) or `run.sh` (Linux/Mac) script.
-
 ## Notes
 - **Rate Limits**: The system is currently capped to scan the last 50 emails to respect Gmail API limits during testing.
 - **Privacy**: In "Local Mode", PDF content is processed locally and not sent to any third-party AI service.
